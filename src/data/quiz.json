@@ -1,0 +1,85 @@
+{
+    "steps": [
+        {
+            "id": "1",
+            "qid": "quiz-1",
+            "type": "question",
+            "title": "How many Australians experience homelessness on any given night?",
+            "trackingData": {
+                "event": "question_1",
+                "clickId": "question_1"
+            },
+            "trackingConfig": {
+                "errorMessage": "Please choose one option to proceed"
+            },
+            "content": [
+                {
+                    "type": "select",
+                    "options": ["1000", "50000", "122000", "35700"]
+                }
+            ],
+            "correctAnswer": "122000",
+            "explanation": {
+                "text": "On any given night, over 122,000 Australians are experiencing homelessness. This figure includes people sleeping rough, staying in temporary accommodation, and those in other unstable housing situations.",
+                "source": {
+                    "text": "Australian Bureau of Statistics (2021): Census of Population and Housing: Estimating Homelessness",
+                    "url": "https://www.abs.gov.au/statistics/people/housing/census-population-and-housing-estimating-homelessness/latest-release"
+                }
+            }
+        },
+        {
+            "id": "2",
+            "qid": "quiz-2",
+            "type": "question",
+            "title": "What is the main cause of homelessness in Australia?",
+            "trackingData": {
+                "event": "question_2",
+                "clickId": "question_2"
+            },
+            "trackingConfig": {
+                "errorMessage": "Please choose one option to proceed"
+            },
+            "content": [
+                {
+                    "type": "select",
+                    "options": ["Domestic violence", "Unemployment", "Mental illness", "Lack of affordable housing"]
+                }
+            ],
+            "correctAnswer": "Lack of affordable housing",
+            "explanation": {
+                "text": "The main cause of homelessness in Australia is the lack of affordable housing. Many people are unable to secure stable accommodation due to high rental prices and a shortage of public housing.",
+                "source": {
+                    "text": "Australian Institute of Health and Welfare (2021): Homelessness Services",
+                    "url": "https://www.aihw.gov.au/reports/homelessness-services/homelessness-services"
+                }
+            }
+        },
+        {
+            "id": "3",
+            "qid": "quiz-3",
+            "type": "question",
+            "title": "How many children in Australia are homeless?",
+            "trackingData": {
+                "event": "question_3",
+                "clickId": "question_3"
+            },
+            "trackingConfig": {
+                "errorMessage": "Please choose one option to proceed"
+            },
+            "content": [
+                {
+                    "type": "select",
+                    "options": ["17600", "5000", "12000", "30000"]
+                }
+            ],
+            "correctAnswer": "17600",
+            "explanation": {
+                "text": "Over 17,600 children younger than 12 years are homeless in Australia. These children often rely on parks, bus shelters, or shop fronts for warmth.",
+                "source": {
+                    "text": "Australian Bureau of Statistics (2021): Census of Population and Housing: Estimating Homelessness",
+                    "url": "https://www.abs.gov.au/statistics/people/housing/census-population-and-housing-estimating-homelessness"
+                }
+            }
+        }
+    ]
+}

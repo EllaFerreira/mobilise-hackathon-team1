@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button.next-button {
+    @apply bg-blue-100 text-white-base font-bold py-2 px-4 rounded-full flex items-center gap-2;
+  }
+
+  button.next-button svg {
+    @apply w-4 h-4;
+  }
+
+  button.disable-button {
+    @apply bg-blue-100 text-white-base font-bold py-2 px-4 rounded-full flex items-center gap-2 opacity-50 cursor-not-allowed;
+  }
+
+  input.validation-input {
+    @apply border border-black-100 px-4 py-2 rounded-md w-full;
+  }
